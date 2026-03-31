@@ -20,7 +20,7 @@ The system focuses on centralizing information that was previously scattered acr
 To balance ease of development with market standards, this project uses:
 
 * **Language:** Python
-* **Web Framework:** Flask
+* **Web Framework:** Flask, Botstrap5
 * **Database:** MySQL
 * **Frontend:** HTML5, CSS3, and JavaScript
 * **Data Manipulation:** Pandas / Openpyxl
