@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+}
+
+nav.menu-lateral{
+    width: 300px;
+    height: 100%;
+
+    background-color: #225197;
+    padding: 40px 0 40px 1%;
+}
+
+.btn-expandir{
+    width: 100%;
+    padding-left: 40px;
+}
+
+.btn-expandir > i{
+    color: rgb(255, 255, 255);
+    font-size: 24px;
+    cursor: pointer;
+}
+
+ul{
+    width: 100%;
+    list-style-type: none;
+}
+
+ul li.iten-menu{
+
+}
+
+ul li.iten-menu :hover{
+    background-color: #1b3c7a;
+}
+
+
+
+ul li.iten-menu a{
+   color: rgb(255, 255, 255);
+   text-decoration: none;
+   font-size: 20px;
+   padding: 20px 4%;
+   display: flex;
+   margin-bottom: 20px;
+   line-height: 40px;
+}
+
+ul li.iten-menu a .txt-link{
+    margin-left: 40px;
+}
+
+ul li.iten-menu a .icon > i{
+    font-size: 30px;
+}
