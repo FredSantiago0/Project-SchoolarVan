@@ -8,12 +8,28 @@ body{
     height: 100vh;
 }
 
-nav.menu-lateral{
-    width: 300px;
-    height: 100%;
 
+
+nav.menu-lateral{
+    width: 100px;
+    height: 100%;
     background-color: #225197;
-    padding: 40px 0 40px 1%;
+    padding: 40px 0px 0px ;
+    box-shadow: 10px 0 0  #1b3c7a;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+
+    overflow: hidden;
+    transition: .4s;
+}
+
+
+
+nav.menu-lateral:hover{
+    width: 300px;
+    transition: .4s;
 }
 
 .btn-expandir{
@@ -23,7 +39,7 @@ nav.menu-lateral{
 
 .btn-expandir > i{
     color: rgb(255, 255, 255);
-    font-size: 24px;
+    font-size: 34px;
     cursor: pointer;
 }
 
@@ -33,11 +49,21 @@ ul{
 }
 
 ul li.iten-menu{
-
+    transition: .4s;
 }
+
+
+ul li.ativo{
+    background-color: #1b3c7a;
+    border-radius: 20px 0 0 20px;
+    transition: 0s;
+}
+
 
 ul li.iten-menu :hover{
     background-color: #1b3c7a;
+    transition: .4s;
+    color: sandybrown;
 }
 
 
@@ -45,11 +71,12 @@ ul li.iten-menu :hover{
 ul li.iten-menu a{
    color: rgb(255, 255, 255);
    text-decoration: none;
-   font-size: 20px;
-   padding: 20px 4%;
+   font-size: 30px;
+   padding: 20px 5%;
    display: flex;
-   margin-bottom: 20px;
-   line-height: 40px;
+   margin-bottom: 30px;
+   line-height: 50px;
+   border-radius: 20px 0 0 20px;
 }
 
 ul li.iten-menu a .txt-link{
@@ -57,5 +84,6 @@ ul li.iten-menu a .txt-link{
 }
 
 ul li.iten-menu a .icon > i{
-    font-size: 30px;
+    font-size: 40px;
+    margin-left: 5px;
 }
